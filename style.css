@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+/* ----- =structure ----- */
+
+body {
+	background-color: #fff;
+  margin: 0;
+}
+header {
+	height: 120px;
+	background-color: #fff;
+}
+#content {
+	padding-top: 60px;
+	min-height: 400px;
+}
+footer {
+	background-color: #bdcbd9;
+}
+.wrapper {
+	width: 980px;
+	margin: auto;
+}
+.wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* ----- =logo ----- */
+
+header h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 40px;
+	float: left;
+	padding-top: 50px;
+	margin: 0 0 0 20px;
+}
+header h1 a  {
+	text-decoration: none;
+	color: #8f99a4;
+}
+header h1 a:hover {
+	color: #777;
+}
+
+/* ----- =header & nav ----- */
+
+nav {
+  float: right;
+  margin: 72px 20px 0 0;
+
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+  color: #8f99a4;
+  font-family: Quattrocento, sans-serif;
+
+}
+
+nav a:hover {
+  color: #777;
+}
+
+nav a:last-of-type {
+  margin-right: 20px;
+}
+
+/* ----- =full background images ----- */
+
+.bg-full-image {
+	position: relative;
+	min-width: 980px;
+}
+.bg-full-image img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 3px #b4b4b4 solid;
+}
+.bg-color-band {
+    height: 20px;
+	background-color: #c8d6e3;	
+	border: 1px solid #b7c4d0;
+}
+ 
+.full-width {
+	width: 100%;	
+}
+
+video {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ----- =type ----- */
+
+h2 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 36px;
+	color: #8f99a4;
+}
+h3 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 24px;
+	color: #363636;
+}
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #777;
+}
+.center {
+	text-align: center;
+}
+a:link {
+	color: #8f99a4;
+	text-decoration: none;
+}
+em {
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 10px;
+	display: block;
+	color: #999;
+}
+.quote {
+	text-indent: -0.5em;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/* ----- =footer ----- */
+
+footer {
+	text-align: center;	
+}
+footer #copyright {
+	color: #fff;
+    position: relative;
+    left: 20px;
+	margin-top: 26px;
+}
+footer #social-media {
+	width: 100%;
+	background-color: #8b959f;
+}
+
+footer #social-media ul {
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+footer #social-media ul li {
+	float: left;
+    position: relative;
+    left: 20px;
+	margin: 15px 8px 8px 5px;
+}
